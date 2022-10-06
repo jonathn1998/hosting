@@ -1,0 +1,145 @@
+@media screen and (min-width:800px) {
+    br {
+        display: none;
+    }
+
+    .header__cta {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+
+    .header {
+        background-image: url('../images/bg-header-desktop.png');
+    }
+
+    .header__paragraph {
+        margin-bottom: 4rem;
+        padding: 0 15rem;
+    }
+
+    .computer__paragraph {
+        padding: 0 15rem;
+    }
+
+    .todo {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .computer__texts {
+        font-size: 1.8rem;
+        text-align: left;
+        padding: 3rem 0;
+    }
+
+    .c__tittle {
+        margin-bottom: 0;
+    }
+
+    .c__paragraph {
+        font-size: 1.5rem;
+        text-align: justify;
+        padding-right: 10rem;
+    }
+
+    .computer__figure {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .acces__paragraph {
+        padding: 0 20rem;
+    }
+
+    .acces__figure {
+        width: 50%;
+    }
+
+    .funcion__paragraph {
+        padding: 2rem 20rem;
+    }
+
+    .div__fun {
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
+    }
+
+    .fun {
+        padding: 0;
+        width: 33%;
+
+    }
+
+    .fun__figure {
+        padding: 0;
+        height: 5rem;
+    }
+
+    .fun__tittle {
+        margin-bottom: 0;
+    }
+
+    .logos {
+        padding: 20rem 0;
+    }
+
+    .logos__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5rem;
+        justify-content: space-between;
+    }
+
+    .clip__paragraph {
+        padding: 0 20rem;
+    }
+
+    /* -------------------------------------- */
+    .footer {
+        background-color: rgb(245, 246, 248);
+        height: 10rem;
+        display: grid;
+        align-items: center;
+    }
+
+    .footer__links {
+        display: flex;
+        flex-direction: row;
+        /* gap: 3rem; */
+        /* justify-content: center; */
+    }
+
+    .social__media {
+        display: flex;
+        /* justify-content: center; */
+        gap: 2rem;
+        padding: 0;
+        /* align-items: center; */
+    }
+
+    .footer__logo {
+        width: 5rem;
+        margin: unset;
+        padding: 0;
+    }
+
+    .footer__container {
+        display: flex;
+        align-items: center;
+        margin: unset;
+        justify-content: space-evenly;
+    }
+
+    .copy {
+        display: none;
+    }
+
+    .link {
+        font-size: 1.5rem;
+    }
+
+}
